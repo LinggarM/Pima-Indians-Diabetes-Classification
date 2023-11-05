@@ -18,7 +18,7 @@ Pima Indians Diabetes Classification using various supervised algorithms with fe
   1. Scaling the data using StandardScaler (modify data distribution to match **standard normal distribution**, with mean 0, and standard deviation 1)
   2. Without scaling the data
 
-* Experiment with scaling the data get better performance in most of the algorithms
+* Experiment with data scaling have better performance in most of the algorithms
 
 ## Technology Used
 * Python
@@ -30,6 +30,16 @@ Pima Indians Diabetes Classification using various supervised algorithms with fe
 
 ## Dataset
 This project uses a dataset provided by the University of California, Irvine on their Machine Learning Repository. We use a specific dataset on diabetes, which is [Pima Indians Diabetes Database - UCI Machine Learning](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+
+## Performance
+  Performance with Data Scaling | Performance without Data Scaling
+  :-------------------------:|:-------------------------:
+  ![with_scaling_performance](images/with_scaling_performance.png) | ![with_scaling_performance](images/without_scaling_performance.png)
+
+## Feature Importance
+  Feature Importance with Data Scaling | Feature Importance without Data Scaling
+  :-------------------------:|:-------------------------:
+  ![with_scaling_feature_importance](images/with_scaling_feature_importance.png) | ![without_scaling_feature_importance](images/without_scaling_feature_importance.png)
 
 ## Contributors
 * [Linggar Maretva Cendani](https://github.com/LinggarM) - [linggarmc@gmail.com](mailto: linggarmc@gmail.com)
